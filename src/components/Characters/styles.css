@@ -1,0 +1,5 @@
+.Personagens{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}

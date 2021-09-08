@@ -1,9 +1,9 @@
 import './styles.css'
-const CharCard = ({character}) =>{
+const CharCard = ({character:{name,image,status}}) =>{
     return(
-        <div>
-            <h1>{character.name}</h1>
-            <img src={character.image} alt=""></img>
+        <div className="card" id={status}>
+            <label>{name}</label>
+            <img src={image} alt="{name}" className="picture"></img>
         </div>
     )
 }
